@@ -1,0 +1,5 @@
+ctransformers==0.2.5 #load a quntizes model
+sentence-transformers  ==2.2.2 #  free huggingbase embedding odel
+pinecone-client
+langchain==0.0.225
+flask
