@@ -10,8 +10,10 @@
 1. Create a folder and click on right side to open the git hub here
 2. git clone (copy clone using web url in github)
 3. conda .
-4. conda create mbot python=3.8
-5. conda activate mbot
+4. conda create mchatbot python=3.8
+    Note: If any issues with gitbash use "powershell -ExecutionPolicy Bypass" and it will convert to 
+    commandprompt. and activate the conda activate mchatbot
+5. conda activate mchatbot
 6. pip install requirement.txt
 
 8. 
