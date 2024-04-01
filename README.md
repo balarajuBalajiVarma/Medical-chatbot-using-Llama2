@@ -13,7 +13,5 @@
 4. conda create mbot python=3.8
 5. conda activate mbot
 6. pip install requirement.txt
-7. download the model from below link
-    link: https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main 
-    modelname: llama-2-7b-chat.ggmlv3.q4_0.bin
+
 8. 
