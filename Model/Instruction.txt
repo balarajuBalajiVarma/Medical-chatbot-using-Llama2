@@ -1,3 +1,4 @@
 download the model from below link
     link: https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main 
+used-model-name because of less space : llama-2-7b-chat.ggmlv3.q2_K.bin
 modelname: llama-2-7b-chat.ggmlv3.q4_0.bin
