@@ -6,3 +6,4 @@ flask
 pypdf
 sentence_transformers
 langchain-pinecone==0.0.3
+-e . # To run the set.py file which will help to install the local packages

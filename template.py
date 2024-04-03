@@ -7,16 +7,18 @@ logging.basicConfig(level=logging.INFO,format='[%(asctime)s]:%(message)s:')
 
 list_of_files=[
 
-    "src/__init__.py",
-    "src/helper.py",
-    "src/prompt.py",
-    ".env",
-    "setup.py",
-    "research/trails.ipynb",
-    "app.py",
-    "store_index.py",
+    "src/__init__.py", 
+    "src/helper.py", # definition scripts
+    "src/prompt.py", # prompt py script
+    ".env",      # credentials
+    "setup.py",  # If we want to use the libraries in local that is from src folder to import a filename.
+                    # src is not installed in libraries to work those folders which contains file we use
+                    #setup.py and add some code their 
+    "research/trails.ipynb", # trails notebook
+    "app.py", # flask 
+    "store_index.py", #store vector db data
     "static/.gitkeep",
-    "templates/chat.html"
+    "templates/chat.html" 
 ]
 
 for filepath in list_of_files:
